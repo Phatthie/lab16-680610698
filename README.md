@@ -13,7 +13,7 @@ pnpm run dev
 ```
 
 ---
-# ปรับ Types : `src\lib\types.ts`
+### ปรับ Types : `src\lib\types.ts`
 ```ts
 interface Student {
   studentId: string;
@@ -34,7 +34,7 @@ interface Course {
 export type { Course };
 ```
 ---
-# ปรับ mock-data : `src\lib\mock-data.ts`
+### ปรับ mock-data : `src\lib\mock-data.ts`
 ```ts
 export const students: Student[] = [
   {
